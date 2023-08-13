@@ -1,5 +1,3 @@
-#### This is not a Secure File ####
-
 #!/bin/bash
 
 #Let's stop the script if anything errors out. 
