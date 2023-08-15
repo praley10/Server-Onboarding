@@ -1,5 +1,9 @@
-####---- Docker Compose ----####
+#!/bin/bash
+
+#Let's stop the script if anything errors out. 
+set -o errexit
 sudo apt-get update
+####---- Docker Compose ----####
 sudo apt-get install ca-certificates curl gnupg
 sudo install -m 0755 -d /etc/apt/keyrings
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
